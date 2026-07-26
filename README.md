@@ -1,73 +1,195 @@
-# Welcome to our project
+# 💳 ScoreX – AI Credit Assessment System
 
-## Project info
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-6-purple?logo=vite)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?logo=tailwindcss)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+An AI-powered web application that evaluates an individual's creditworthiness by analysing financial and personal data. The platform provides intelligent credit assessment, helping users and financial institutions make informed lending decisions.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use **
+- 🤖 AI-powered credit score prediction
+- 📊 Credit risk analysis
+- 📝 User-friendly loan application form
+- 📈 Interactive dashboard
+- 🔒 Secure authentication
+- 📱 Fully responsive design
+- ⚡ Fast performance with Vite
+- 🎨 Modern UI using Tailwind CSS & shadcn/ui
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Backend
+- Node.js
+- Express.js
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Database
+- MongoDB
 
-Follow these steps:
+### AI / ML
+- Python
+- Machine Learning Models
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📂 Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
+```
+ScoreX/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── lib/
+│   ├── assets/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── server/
+│
+├── package.json
+├── vite.config.ts
+└── README.md
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 📦 Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/aryajarad34-art/REPOSITORY_NAME.git
+```
+
+### Navigate to the Project
+
+```bash
+cd REPOSITORY_NAME
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## ⚙️ Environment Variables
 
-## What technologies are used for this project?
+Create a `.env` file in the project root.
 
-This project is built with:
+Example:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```env
+VITE_API_URL=http://localhost:5000
+MONGODB_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📸 Screenshots
 
-## Can I connect a custom domain to my Lovable project?
+### Home Page
 
-Yes, you can!
+> Add screenshot here
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Dashboard
+
+> Add screenshot here
+
+---
+
+### Loan Application
+
+> Add screenshot here
+
+---
+
+## 🎯 Future Enhancements
+
+- Loan approval prediction
+- AI chatbot for financial guidance
+- Credit history visualisation
+- Multiple banking integrations
+- Email notifications
+- Admin analytics dashboard
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push the branch
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+## 👨‍💻 Author
+
+**Arya Jarad**
+
+- GitHub: https://github.com/aryajarad34-art
+
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
