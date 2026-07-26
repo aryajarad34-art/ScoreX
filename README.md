@@ -117,26 +117,6 @@ JWT_SECRET=your_secret_key
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-
-> Add screenshot here
-
----
-
-### Dashboard
-
-> Add screenshot here
-
----
-
-### Loan Application
-
-> Add screenshot here
-
----
-
 ## 🎯 Future Enhancements
 
 - Loan approval prediction
